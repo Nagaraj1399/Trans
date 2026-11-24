@@ -1,0 +1,6 @@
+{
+  "name": "Bheed",
+  "description": "Crowdedness-aware bus journey planner and transit load analytics for Delhi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,3300 @@
+{
+  "route": "740",
+  "route_id": "DL_740",
+  "dir": "UP",
+  "name": "Anand Vihar ISBT → Connaught Place (Shivaji Stadium)",
+  "is_ac": false,
+  "capacity": {
+    "seats": 36,
+    "standing": 34
+  },
+  "headways": {
+    "weekday": {
+      "5": 12,
+      "6": 12,
+      "7": 12,
+      "8": 8,
+      "9": 8,
+      "10": 8,
+      "11": 12,
+      "12": 12,
+      "13": 12,
+      "14": 12,
+      "15": 12,
+      "16": 12,
+      "17": 8,
+      "18": 8,
+      "19": 8,
+      "20": 8,
+      "21": 12,
+      "22": 12,
+      "23": 12
+    },
+    "weekend": {
+      "5": 14,
+      "6": 14,
+      "7": 14,
+      "8": 14,
+      "9": 14,
+      "10": 14,
+      "11": 14,
+      "12": 14,
+      "13": 14,
+      "14": 14,
+      "15": 14,
+      "16": 14,
+      "17": 14,
+      "18": 14,
+      "19": 14,
+      "20": 14,
+      "21": 14,
+      "22": 14,
+      "23": 14
+    }
+  },
+  "stops": [
+    {
+      "stop_id": "DL_AV_ISBT",
+      "name": "Anand Vihar ISBT",
+      "lat": 28.6469,
+      "lon": 77.316,
+      "scheduled_minutes": 0
+    },
+    {
+      "stop_id": "DL_KKD",
+      "name": "Karkardooma Court",
+      "lat": 28.6512,
+      "lon": 77.3025,
+      "scheduled_minutes": 4
+    },
+    {
+      "stop_id": "DL_PV",
+      "name": "Preet Vihar",
+      "lat": 28.6416,
+      "lon": 77.2951,
+      "scheduled_minutes": 8
+    },
+    {
+      "stop_id": "DL_NV",
+      "name": "Nirman Vihar",
+      "lat": 28.6368,
+      "lon": 77.2869,
+      "scheduled_minutes": 11
+    },
+    {
+      "stop_id": "DL_LN",
+      "name": "Laxmi Nagar Crossing",
+      "lat": 28.6305,
+      "lon": 77.2773,
+      "scheduled_minutes": 15
+    },
+    {
+      "stop_id": "DL_ITO",
+      "name": "ITO (Vikram Nagar)",
+      "lat": 28.6285,
+      "lon": 77.2412,
+      "scheduled_minutes": 22
+    },
+    {
+      "stop_id": "DL_MH",
+      "name": "Mandi House",
+      "lat": 28.6256,
+      "lon": 77.2341,
+      "scheduled_minutes": 25
+    },
+    {
+      "stop_id": "DL_BKH",
+      "name": "Barakhamba Road",
+      "lat": 28.6304,
+      "lon": 77.2244,
+      "scheduled_minutes": 28
+    },
+    {
+      "stop_id": "DL_CP_SS",
+      "name": "Connaught Place (Shivaji Stadium)",
+      "lat": 28.6295,
+      "lon": 77.2141,
+      "scheduled_minutes": 32
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "from_stop_id": "DL_AV_ISBT",
+      "to_stop_id": "DL_KKD",
+      "from_name": "Anand Vihar ISBT",
+      "to_name": "Karkardooma Court"
+    },
+    {
+      "index": 1,
+      "from_stop_id": "DL_KKD",
+      "to_stop_id": "DL_PV",
+      "from_name": "Karkardooma Court",
+      "to_name": "Preet Vihar"
+    },
+    {
+      "index": 2,
+      "from_stop_id": "DL_PV",
+      "to_stop_id": "DL_NV",
+      "from_name": "Preet Vihar",
+      "to_name": "Nirman Vihar"
+    },
+    {
+      "index": 3,
+      "from_stop_id": "DL_NV",
+      "to_stop_id": "DL_LN",
+      "from_name": "Nirman Vihar",
+      "to_name": "Laxmi Nagar Crossing"
+    },
+    {
+      "index": 4,
+      "from_stop_id": "DL_LN",
+      "to_stop_id": "DL_ITO",
+      "from_name": "Laxmi Nagar Crossing",
+      "to_name": "ITO (Vikram Nagar)"
+    },
+    {
+      "index": 5,
+      "from_stop_id": "DL_ITO",
+      "to_stop_id": "DL_MH",
+      "from_name": "ITO (Vikram Nagar)",
+      "to_name": "Mandi House"
+    },
+    {
+      "index": 6,
+      "from_stop_id": "DL_MH",
+      "to_stop_id": "DL_BKH",
+      "from_name": "Mandi House",
+      "to_name": "Barakhamba Road"
+    },
+    {
+      "index": 7,
+      "from_stop_id": "DL_BKH",
+      "to_stop_id": "DL_CP_SS",
+      "from_name": "Barakhamba Road",
+      "to_name": "Connaught Place (Shivaji Stadium)"
+    }
+  ],
+  "crowding": {
+    "weekday": {
+      "5": [
+        {
+          "load": 8.8,
+          "peak_load": 11.6,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 18,
+          "days_count": 2,
+          "flow_per_hour": 44,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 9.9,
+          "peak_load": 14.2,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 23,
+          "days_count": 2,
+          "flow_per_hour": 50,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 12.4,
+          "peak_load": 17.6,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 22,
+          "days_count": 2,
+          "flow_per_hour": 62,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 12.3,
+          "peak_load": 17,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 20,
+          "days_count": 2,
+          "flow_per_hour": 62,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 13.7,
+          "peak_load": 19.5,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 14,
+          "days_count": 2,
+          "flow_per_hour": 69,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 12.2,
+          "peak_load": 15.5,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 22,
+          "days_count": 2,
+          "flow_per_hour": 61,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 10.1,
+          "peak_load": 13.8,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 17,
+          "days_count": 2,
+          "flow_per_hour": 51,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 9.3,
+          "peak_load": 11.6,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 21,
+          "days_count": 2,
+          "flow_per_hour": 47,
+          "buses_per_hour": 5
+        }
+      ],
+      "6": [
+        {
+          "load": 14,
+          "peak_load": 18,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 515,
+          "days_count": 21,
+          "flow_per_hour": 70,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 17.9,
+          "peak_load": 24.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 658,
+          "days_count": 21,
+          "flow_per_hour": 90,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 21.5,
+          "peak_load": 27.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 790,
+          "days_count": 21,
+          "flow_per_hour": 108,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 20.7,
+          "peak_load": 29.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 761,
+          "days_count": 21,
+          "flow_per_hour": 104,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 21.8,
+          "peak_load": 30.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 801,
+          "days_count": 21,
+          "flow_per_hour": 109,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 18.5,
+          "peak_load": 26.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 680,
+          "days_count": 21,
+          "flow_per_hour": 93,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 17.5,
+          "peak_load": 25.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 643,
+          "days_count": 21,
+          "flow_per_hour": 88,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 15.5,
+          "peak_load": 19.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 570,
+          "days_count": 21,
+          "flow_per_hour": 78,
+          "buses_per_hour": 5
+        }
+      ],
+      "7": [
+        {
+          "load": 25.1,
+          "peak_load": 34.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 922,
+          "days_count": 21,
+          "flow_per_hour": 126,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 28.4,
+          "peak_load": 35.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 1044,
+          "days_count": 21,
+          "flow_per_hour": 142,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 32.8,
+          "peak_load": 44.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1205,
+          "days_count": 21,
+          "flow_per_hour": 164,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 32.7,
+          "peak_load": 43.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1202,
+          "days_count": 21,
+          "flow_per_hour": 164,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 33.2,
+          "peak_load": 41.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1220,
+          "days_count": 21,
+          "flow_per_hour": 166,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 34.5,
+          "peak_load": 45.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1268,
+          "days_count": 21,
+          "flow_per_hour": 173,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26.6,
+          "peak_load": 35,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 978,
+          "days_count": 21,
+          "flow_per_hour": 133,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 24.5,
+          "peak_load": 34.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 900,
+          "days_count": 21,
+          "flow_per_hour": 123,
+          "buses_per_hour": 5
+        }
+      ],
+      "8": [
+        {
+          "load": 35.6,
+          "peak_load": 47.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1962,
+          "days_count": 21,
+          "flow_per_hour": 267,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 38.7,
+          "peak_load": 54.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2133,
+          "days_count": 21,
+          "flow_per_hour": 290,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 42.6,
+          "peak_load": 61.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2348,
+          "days_count": 21,
+          "flow_per_hour": 320,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 48.2,
+          "peak_load": 66.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2657,
+          "days_count": 21,
+          "flow_per_hour": 362,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 47.1,
+          "peak_load": 67.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2596,
+          "days_count": 21,
+          "flow_per_hour": 353,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 47.2,
+          "peak_load": 59.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2602,
+          "days_count": 21,
+          "flow_per_hour": 354,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 40.9,
+          "peak_load": 57.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2255,
+          "days_count": 21,
+          "flow_per_hour": 307,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 36.1,
+          "peak_load": 51.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1990,
+          "days_count": 21,
+          "flow_per_hour": 271,
+          "buses_per_hour": 7.5
+        }
+      ],
+      "9": [
+        {
+          "load": 41.8,
+          "peak_load": 59.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2304,
+          "days_count": 21,
+          "flow_per_hour": 314,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 47.3,
+          "peak_load": 62.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2607,
+          "days_count": 21,
+          "flow_per_hour": 355,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 50.1,
+          "peak_load": 65.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2762,
+          "days_count": 21,
+          "flow_per_hour": 376,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 58.8,
+          "peak_load": 75.9,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3241,
+          "days_count": 21,
+          "flow_per_hour": 441,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 55.3,
+          "peak_load": 72.2,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3048,
+          "days_count": 21,
+          "flow_per_hour": 415,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 57.4,
+          "peak_load": 80.3,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3164,
+          "days_count": 21,
+          "flow_per_hour": 431,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 48,
+          "peak_load": 60.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2646,
+          "days_count": 21,
+          "flow_per_hour": 360,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 37.6,
+          "peak_load": 50.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2073,
+          "days_count": 21,
+          "flow_per_hour": 282,
+          "buses_per_hour": 7.5
+        }
+      ],
+      "10": [
+        {
+          "load": 31.7,
+          "peak_load": 44.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1747,
+          "days_count": 21,
+          "flow_per_hour": 238,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 35.7,
+          "peak_load": 50.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1968,
+          "days_count": 21,
+          "flow_per_hour": 268,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 41.3,
+          "peak_load": 56,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2277,
+          "days_count": 21,
+          "flow_per_hour": 310,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 48.2,
+          "peak_load": 62.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2657,
+          "days_count": 21,
+          "flow_per_hour": 362,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 42.1,
+          "peak_load": 59.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2321,
+          "days_count": 21,
+          "flow_per_hour": 316,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 43.9,
+          "peak_load": 56.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2420,
+          "days_count": 21,
+          "flow_per_hour": 329,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 39.7,
+          "peak_load": 52.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2188,
+          "days_count": 21,
+          "flow_per_hour": 298,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 31.2,
+          "peak_load": 43.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1720,
+          "days_count": 21,
+          "flow_per_hour": 234,
+          "buses_per_hour": 7.5
+        }
+      ],
+      "11": [
+        {
+          "load": 19.9,
+          "peak_load": 26,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 731,
+          "days_count": 21,
+          "flow_per_hour": 100,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 25.3,
+          "peak_load": 32.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 930,
+          "days_count": 21,
+          "flow_per_hour": 127,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 25.9,
+          "peak_load": 32.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 952,
+          "days_count": 21,
+          "flow_per_hour": 130,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 29.2,
+          "peak_load": 40.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1073,
+          "days_count": 21,
+          "flow_per_hour": 146,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26.4,
+          "peak_load": 34.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 970,
+          "days_count": 21,
+          "flow_per_hour": 132,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26.5,
+          "peak_load": 36.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 974,
+          "days_count": 21,
+          "flow_per_hour": 133,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 24.9,
+          "peak_load": 36.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 915,
+          "days_count": 21,
+          "flow_per_hour": 125,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 18.8,
+          "peak_load": 23.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 691,
+          "days_count": 21,
+          "flow_per_hour": 94,
+          "buses_per_hour": 5
+        }
+      ],
+      "12": [
+        {
+          "load": 18.5,
+          "peak_load": 26.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 680,
+          "days_count": 21,
+          "flow_per_hour": 93,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 20.9,
+          "peak_load": 28.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 768,
+          "days_count": 21,
+          "flow_per_hour": 105,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26,
+          "peak_load": 33.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 955,
+          "days_count": 21,
+          "flow_per_hour": 130,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26,
+          "peak_load": 35.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 955,
+          "days_count": 21,
+          "flow_per_hour": 130,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 24.4,
+          "peak_load": 35.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 897,
+          "days_count": 21,
+          "flow_per_hour": 122,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 25.5,
+          "peak_load": 37.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 937,
+          "days_count": 21,
+          "flow_per_hour": 128,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 21.2,
+          "peak_load": 26.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 779,
+          "days_count": 21,
+          "flow_per_hour": 106,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 19.5,
+          "peak_load": 28.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 717,
+          "days_count": 21,
+          "flow_per_hour": 98,
+          "buses_per_hour": 5
+        }
+      ],
+      "13": [
+        {
+          "load": 20,
+          "peak_load": 27.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 735,
+          "days_count": 21,
+          "flow_per_hour": 100,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 21.7,
+          "peak_load": 31.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 797,
+          "days_count": 21,
+          "flow_per_hour": 109,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 23.9,
+          "peak_load": 34.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 878,
+          "days_count": 21,
+          "flow_per_hour": 120,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 27.1,
+          "peak_load": 38.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 996,
+          "days_count": 21,
+          "flow_per_hour": 136,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26.4,
+          "peak_load": 36.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 970,
+          "days_count": 21,
+          "flow_per_hour": 132,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26.5,
+          "peak_load": 34.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 974,
+          "days_count": 21,
+          "flow_per_hour": 133,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 23,
+          "peak_load": 32.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 845,
+          "days_count": 21,
+          "flow_per_hour": 115,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 20.3,
+          "peak_load": 26.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 746,
+          "days_count": 21,
+          "flow_per_hour": 102,
+          "buses_per_hour": 5
+        }
+      ],
+      "14": [
+        {
+          "load": 21.2,
+          "peak_load": 27.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 779,
+          "days_count": 21,
+          "flow_per_hour": 106,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 23.9,
+          "peak_load": 31.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 878,
+          "days_count": 21,
+          "flow_per_hour": 120,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 27.6,
+          "peak_load": 34.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 1014,
+          "days_count": 21,
+          "flow_per_hour": 138,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 27.5,
+          "peak_load": 38.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 1011,
+          "days_count": 21,
+          "flow_per_hour": 138,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 28,
+          "peak_load": 36.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 1029,
+          "days_count": 21,
+          "flow_per_hour": 140,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 29.1,
+          "peak_load": 40.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1069,
+          "days_count": 21,
+          "flow_per_hour": 146,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26.4,
+          "peak_load": 37.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 970,
+          "days_count": 21,
+          "flow_per_hour": 132,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 20.7,
+          "peak_load": 26.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 761,
+          "days_count": 21,
+          "flow_per_hour": 104,
+          "buses_per_hour": 5
+        }
+      ],
+      "15": [
+        {
+          "load": 21.7,
+          "peak_load": 30.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 797,
+          "days_count": 21,
+          "flow_per_hour": 109,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 27.7,
+          "peak_load": 38.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 1018,
+          "days_count": 21,
+          "flow_per_hour": 139,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 28.2,
+          "peak_load": 39.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 1036,
+          "days_count": 21,
+          "flow_per_hour": 141,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 31.9,
+          "peak_load": 40.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1172,
+          "days_count": 21,
+          "flow_per_hour": 160,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 33.7,
+          "peak_load": 48.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1238,
+          "days_count": 21,
+          "flow_per_hour": 169,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 28.7,
+          "peak_load": 36,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 1055,
+          "days_count": 21,
+          "flow_per_hour": 144,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 27.1,
+          "peak_load": 36.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 996,
+          "days_count": 21,
+          "flow_per_hour": 136,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 23.9,
+          "peak_load": 32.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 878,
+          "days_count": 21,
+          "flow_per_hour": 120,
+          "buses_per_hour": 5
+        }
+      ],
+      "16": [
+        {
+          "load": 29.7,
+          "peak_load": 39.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1091,
+          "days_count": 21,
+          "flow_per_hour": 149,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 39.4,
+          "peak_load": 49.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1448,
+          "days_count": 21,
+          "flow_per_hour": 197,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 41.9,
+          "peak_load": 59.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1540,
+          "days_count": 21,
+          "flow_per_hour": 210,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 41.7,
+          "peak_load": 60.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1532,
+          "days_count": 21,
+          "flow_per_hour": 209,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 46.5,
+          "peak_load": 62.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1709,
+          "days_count": 21,
+          "flow_per_hour": 233,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 41.3,
+          "peak_load": 55.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1518,
+          "days_count": 21,
+          "flow_per_hour": 207,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 40.3,
+          "peak_load": 55.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1481,
+          "days_count": 21,
+          "flow_per_hour": 202,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 31.6,
+          "peak_load": 42.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1161,
+          "days_count": 21,
+          "flow_per_hour": 158,
+          "buses_per_hour": 5
+        }
+      ],
+      "17": [
+        {
+          "load": 38.5,
+          "peak_load": 48.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2122,
+          "days_count": 21,
+          "flow_per_hour": 289,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 49.1,
+          "peak_load": 66.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2707,
+          "days_count": 21,
+          "flow_per_hour": 368,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 54.2,
+          "peak_load": 72.3,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 2988,
+          "days_count": 21,
+          "flow_per_hour": 407,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 52,
+          "peak_load": 68.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2867,
+          "days_count": 21,
+          "flow_per_hour": 390,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 60.1,
+          "peak_load": 75.6,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3313,
+          "days_count": 21,
+          "flow_per_hour": 451,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 51.4,
+          "peak_load": 73.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2833,
+          "days_count": 21,
+          "flow_per_hour": 386,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 44.5,
+          "peak_load": 57.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2453,
+          "days_count": 21,
+          "flow_per_hour": 334,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 39.4,
+          "peak_load": 56.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2172,
+          "days_count": 21,
+          "flow_per_hour": 296,
+          "buses_per_hour": 7.5
+        }
+      ],
+      "18": [
+        {
+          "load": 48,
+          "peak_load": 67.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2646,
+          "days_count": 21,
+          "flow_per_hour": 360,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 48,
+          "peak_load": 67.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2646,
+          "days_count": 21,
+          "flow_per_hour": 360,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 48,
+          "peak_load": 64.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2646,
+          "days_count": 21,
+          "flow_per_hour": 360,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 64,
+          "peak_load": 82.6,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3528,
+          "days_count": 21,
+          "flow_per_hour": 480,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 65.5,
+          "peak_load": 91.4,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3611,
+          "days_count": 21,
+          "flow_per_hour": 491,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 58,
+          "peak_load": 75.2,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3197,
+          "days_count": 21,
+          "flow_per_hour": 435,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 58,
+          "peak_load": 77.2,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3197,
+          "days_count": 21,
+          "flow_per_hour": 435,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 48,
+          "peak_load": 66.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2646,
+          "days_count": 21,
+          "flow_per_hour": 360,
+          "buses_per_hour": 7.5
+        }
+      ],
+      "19": [
+        {
+          "load": 44.9,
+          "peak_load": 59.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2475,
+          "days_count": 21,
+          "flow_per_hour": 337,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 48.8,
+          "peak_load": 62.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2690,
+          "days_count": 21,
+          "flow_per_hour": 366,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 58.7,
+          "peak_load": 74,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3236,
+          "days_count": 21,
+          "flow_per_hour": 440,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 66,
+          "peak_load": 90.7,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3638,
+          "days_count": 21,
+          "flow_per_hour": 495,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 59.9,
+          "peak_load": 78.5,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3302,
+          "days_count": 21,
+          "flow_per_hour": 449,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 60,
+          "peak_load": 82.8,
+          "level": "crowded",
+          "confidence": "high",
+          "ticket_count": 3308,
+          "days_count": 21,
+          "flow_per_hour": 450,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 48.1,
+          "peak_load": 60,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2652,
+          "days_count": 21,
+          "flow_per_hour": 361,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 42.6,
+          "peak_load": 53.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2348,
+          "days_count": 21,
+          "flow_per_hour": 320,
+          "buses_per_hour": 7.5
+        }
+      ],
+      "20": [
+        {
+          "load": 34.4,
+          "peak_load": 46.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1896,
+          "days_count": 21,
+          "flow_per_hour": 258,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 37.5,
+          "peak_load": 51.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2067,
+          "days_count": 21,
+          "flow_per_hour": 281,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 45,
+          "peak_load": 63.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2481,
+          "days_count": 21,
+          "flow_per_hour": 338,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 50.6,
+          "peak_load": 67.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2789,
+          "days_count": 21,
+          "flow_per_hour": 380,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 45.6,
+          "peak_load": 57.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2514,
+          "days_count": 21,
+          "flow_per_hour": 342,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 45.6,
+          "peak_load": 56.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2514,
+          "days_count": 21,
+          "flow_per_hour": 342,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 36.6,
+          "peak_load": 49.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 2018,
+          "days_count": 21,
+          "flow_per_hour": 275,
+          "buses_per_hour": 7.5
+        },
+        {
+          "load": 32.4,
+          "peak_load": 46.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1786,
+          "days_count": 21,
+          "flow_per_hour": 243,
+          "buses_per_hour": 7.5
+        }
+      ],
+      "21": [
+        {
+          "load": 21.4,
+          "peak_load": 30.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 786,
+          "days_count": 21,
+          "flow_per_hour": 107,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 24.1,
+          "peak_load": 30.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 886,
+          "days_count": 21,
+          "flow_per_hour": 121,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 27.8,
+          "peak_load": 35.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 1022,
+          "days_count": 21,
+          "flow_per_hour": 139,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 32.6,
+          "peak_load": 40.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1198,
+          "days_count": 21,
+          "flow_per_hour": 163,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 33.1,
+          "peak_load": 44.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1216,
+          "days_count": 21,
+          "flow_per_hour": 166,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 29.4,
+          "peak_load": 40.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 1080,
+          "days_count": 21,
+          "flow_per_hour": 147,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 26.6,
+          "peak_load": 38.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 978,
+          "days_count": 21,
+          "flow_per_hour": 133,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 20.9,
+          "peak_load": 28.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 768,
+          "days_count": 21,
+          "flow_per_hour": 105,
+          "buses_per_hour": 5
+        }
+      ],
+      "22": [
+        {
+          "load": 13.9,
+          "peak_load": 19.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 511,
+          "days_count": 21,
+          "flow_per_hour": 70,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 15,
+          "peak_load": 19.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 551,
+          "days_count": 21,
+          "flow_per_hour": 75,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 19.5,
+          "peak_load": 26.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 717,
+          "days_count": 21,
+          "flow_per_hour": 98,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 18.7,
+          "peak_load": 25.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 687,
+          "days_count": 21,
+          "flow_per_hour": 94,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 18.4,
+          "peak_load": 24.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 676,
+          "days_count": 21,
+          "flow_per_hour": 92,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 18.5,
+          "peak_load": 26.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 680,
+          "days_count": 21,
+          "flow_per_hour": 93,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 16,
+          "peak_load": 21,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 588,
+          "days_count": 21,
+          "flow_per_hour": 80,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 14.2,
+          "peak_load": 17.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 522,
+          "days_count": 21,
+          "flow_per_hour": 71,
+          "buses_per_hour": 5
+        }
+      ],
+      "23": [
+        {
+          "load": 8.9,
+          "peak_load": 11.4,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 14,
+          "days_count": 2,
+          "flow_per_hour": 45,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 10.1,
+          "peak_load": 14.6,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 26,
+          "days_count": 2,
+          "flow_per_hour": 51,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 12.5,
+          "peak_load": 18,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 15,
+          "days_count": 2,
+          "flow_per_hour": 63,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 12.5,
+          "peak_load": 16.3,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 27,
+          "days_count": 2,
+          "flow_per_hour": 63,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 11.9,
+          "peak_load": 16.7,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 26,
+          "days_count": 2,
+          "flow_per_hour": 60,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 12.4,
+          "peak_load": 16.5,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 23,
+          "days_count": 2,
+          "flow_per_hour": 62,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 10.3,
+          "peak_load": 14.4,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 21,
+          "days_count": 2,
+          "flow_per_hour": 52,
+          "buses_per_hour": 5
+        },
+        {
+          "load": 9.5,
+          "peak_load": 13.3,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 21,
+          "days_count": 2,
+          "flow_per_hour": 48,
+          "buses_per_hour": 5
+        }
+      ]
+    },
+    "weekend": {
+      "5": [
+        {
+          "load": 6.8,
+          "peak_load": 9,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 18,
+          "days_count": 2,
+          "flow_per_hour": 29,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 7.4,
+          "peak_load": 10.6,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 23,
+          "days_count": 2,
+          "flow_per_hour": 32,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 8.2,
+          "peak_load": 11.6,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 22,
+          "days_count": 2,
+          "flow_per_hour": 35,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 9.2,
+          "peak_load": 12.7,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 20,
+          "days_count": 2,
+          "flow_per_hour": 40,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 9,
+          "peak_load": 12.8,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 14,
+          "days_count": 2,
+          "flow_per_hour": 39,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 9,
+          "peak_load": 11.5,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 22,
+          "days_count": 2,
+          "flow_per_hour": 39,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 7.8,
+          "peak_load": 10.7,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 17,
+          "days_count": 2,
+          "flow_per_hour": 34,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 5.9,
+          "peak_load": 7.4,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 21,
+          "days_count": 2,
+          "flow_per_hour": 25,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "6": [
+        {
+          "load": 8.5,
+          "peak_load": 10.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 102,
+          "days_count": 8,
+          "flow_per_hour": 37,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 11.3,
+          "peak_load": 15.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 136,
+          "days_count": 8,
+          "flow_per_hour": 49,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 13.1,
+          "peak_load": 16.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 158,
+          "days_count": 8,
+          "flow_per_hour": 56,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 13.1,
+          "peak_load": 18.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 158,
+          "days_count": 8,
+          "flow_per_hour": 56,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 13.4,
+          "peak_load": 18.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 161,
+          "days_count": 8,
+          "flow_per_hour": 58,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 11.8,
+          "peak_load": 16.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 142,
+          "days_count": 8,
+          "flow_per_hour": 51,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 10.7,
+          "peak_load": 15.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 129,
+          "days_count": 8,
+          "flow_per_hour": 46,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 9.9,
+          "peak_load": 12.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 119,
+          "days_count": 8,
+          "flow_per_hour": 43,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "7": [
+        {
+          "load": 12.9,
+          "peak_load": 17.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 155,
+          "days_count": 8,
+          "flow_per_hour": 55,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 16.4,
+          "peak_load": 20.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 197,
+          "days_count": 8,
+          "flow_per_hour": 71,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 19.6,
+          "peak_load": 26.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 236,
+          "days_count": 8,
+          "flow_per_hour": 84,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 18.9,
+          "peak_load": 25.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 228,
+          "days_count": 8,
+          "flow_per_hour": 81,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 20.1,
+          "peak_load": 25.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 242,
+          "days_count": 8,
+          "flow_per_hour": 86,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 17.1,
+          "peak_load": 22.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 206,
+          "days_count": 8,
+          "flow_per_hour": 74,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 16.2,
+          "peak_load": 21.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 195,
+          "days_count": 8,
+          "flow_per_hour": 70,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 14.3,
+          "peak_load": 20.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 172,
+          "days_count": 8,
+          "flow_per_hour": 61,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "8": [
+        {
+          "load": 17.5,
+          "peak_load": 23.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 211,
+          "days_count": 8,
+          "flow_per_hour": 75,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 19.7,
+          "peak_load": 27.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 237,
+          "days_count": 8,
+          "flow_per_hour": 85,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 24.5,
+          "peak_load": 35.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 295,
+          "days_count": 8,
+          "flow_per_hour": 105,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 24.6,
+          "peak_load": 33.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 296,
+          "days_count": 8,
+          "flow_per_hour": 106,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 23.3,
+          "peak_load": 33.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 281,
+          "days_count": 8,
+          "flow_per_hour": 100,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 24.2,
+          "peak_load": 30.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 291,
+          "days_count": 8,
+          "flow_per_hour": 104,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 20.2,
+          "peak_load": 28.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 243,
+          "days_count": 8,
+          "flow_per_hour": 87,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 15.8,
+          "peak_load": 22.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 190,
+          "days_count": 8,
+          "flow_per_hour": 68,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "9": [
+        {
+          "load": 21.7,
+          "peak_load": 30.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 261,
+          "days_count": 8,
+          "flow_per_hour": 93,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 23.7,
+          "peak_load": 31.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 285,
+          "days_count": 8,
+          "flow_per_hour": 102,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 26,
+          "peak_load": 33.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 313,
+          "days_count": 8,
+          "flow_per_hour": 112,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 29.4,
+          "peak_load": 38,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 354,
+          "days_count": 8,
+          "flow_per_hour": 126,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 29,
+          "peak_load": 37.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 349,
+          "days_count": 8,
+          "flow_per_hour": 125,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 29,
+          "peak_load": 40.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 349,
+          "days_count": 8,
+          "flow_per_hour": 125,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 25.2,
+          "peak_load": 31.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 303,
+          "days_count": 8,
+          "flow_per_hour": 108,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 18.9,
+          "peak_load": 25.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 228,
+          "days_count": 8,
+          "flow_per_hour": 81,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "10": [
+        {
+          "load": 22.5,
+          "peak_load": 31.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 271,
+          "days_count": 8,
+          "flow_per_hour": 97,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 28.7,
+          "peak_load": 40.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 346,
+          "days_count": 8,
+          "flow_per_hour": 123,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 31.7,
+          "peak_load": 42.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 382,
+          "days_count": 8,
+          "flow_per_hour": 136,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 35.6,
+          "peak_load": 46.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 429,
+          "days_count": 8,
+          "flow_per_hour": 153,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 35.1,
+          "peak_load": 49.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 423,
+          "days_count": 8,
+          "flow_per_hour": 151,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 30,
+          "peak_load": 38.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 361,
+          "days_count": 8,
+          "flow_per_hour": 129,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 25.9,
+          "peak_load": 34.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 312,
+          "days_count": 8,
+          "flow_per_hour": 111,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 23,
+          "peak_load": 32.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 277,
+          "days_count": 8,
+          "flow_per_hour": 99,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "11": [
+        {
+          "load": 24.6,
+          "peak_load": 32.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 296,
+          "days_count": 8,
+          "flow_per_hour": 106,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 32.6,
+          "peak_load": 41.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 393,
+          "days_count": 8,
+          "flow_per_hour": 140,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 34.7,
+          "peak_load": 44.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 418,
+          "days_count": 8,
+          "flow_per_hour": 149,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 34.6,
+          "peak_load": 47.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 417,
+          "days_count": 8,
+          "flow_per_hour": 149,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 38.5,
+          "peak_load": 50.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 464,
+          "days_count": 8,
+          "flow_per_hour": 166,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 34.2,
+          "peak_load": 46.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 412,
+          "days_count": 8,
+          "flow_per_hour": 147,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 28.4,
+          "peak_load": 41.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 342,
+          "days_count": 8,
+          "flow_per_hour": 122,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 26.2,
+          "peak_load": 33.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 315,
+          "days_count": 8,
+          "flow_per_hour": 113,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "12": [
+        {
+          "load": 24.5,
+          "peak_load": 35.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 295,
+          "days_count": 8,
+          "flow_per_hour": 105,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 31.4,
+          "peak_load": 43,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 378,
+          "days_count": 8,
+          "flow_per_hour": 135,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 37.6,
+          "peak_load": 49,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 453,
+          "days_count": 8,
+          "flow_per_hour": 162,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 36.2,
+          "peak_load": 49,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 436,
+          "days_count": 8,
+          "flow_per_hour": 156,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 38.2,
+          "peak_load": 55.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 460,
+          "days_count": 8,
+          "flow_per_hour": 164,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 38.1,
+          "peak_load": 55.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 459,
+          "days_count": 8,
+          "flow_per_hour": 164,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 30.7,
+          "peak_load": 38.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 370,
+          "days_count": 8,
+          "flow_per_hour": 132,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 27.1,
+          "peak_load": 39.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 326,
+          "days_count": 8,
+          "flow_per_hour": 117,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "13": [
+        {
+          "load": 25.5,
+          "peak_load": 34.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 307,
+          "days_count": 8,
+          "flow_per_hour": 110,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 28.8,
+          "peak_load": 41.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 347,
+          "days_count": 8,
+          "flow_per_hour": 124,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 33.2,
+          "peak_load": 47.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 400,
+          "days_count": 8,
+          "flow_per_hour": 143,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 33.1,
+          "peak_load": 47.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 399,
+          "days_count": 8,
+          "flow_per_hour": 142,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 37.6,
+          "peak_load": 51.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 453,
+          "days_count": 8,
+          "flow_per_hour": 162,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 33.4,
+          "peak_load": 44,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 402,
+          "days_count": 8,
+          "flow_per_hour": 144,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 30.3,
+          "peak_load": 42.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 365,
+          "days_count": 8,
+          "flow_per_hour": 130,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 23.7,
+          "peak_load": 31.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 285,
+          "days_count": 8,
+          "flow_per_hour": 102,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "14": [
+        {
+          "load": 25.6,
+          "peak_load": 33,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 308,
+          "days_count": 8,
+          "flow_per_hour": 110,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 27.9,
+          "peak_load": 36.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 336,
+          "days_count": 8,
+          "flow_per_hour": 120,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 30.7,
+          "peak_load": 38.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 370,
+          "days_count": 8,
+          "flow_per_hour": 132,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 34.7,
+          "peak_load": 48.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 418,
+          "days_count": 8,
+          "flow_per_hour": 149,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 33.9,
+          "peak_load": 43.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 408,
+          "days_count": 8,
+          "flow_per_hour": 146,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 33.9,
+          "peak_load": 47.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 408,
+          "days_count": 8,
+          "flow_per_hour": 146,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 29.4,
+          "peak_load": 41.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 354,
+          "days_count": 8,
+          "flow_per_hour": 126,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 22.1,
+          "peak_load": 28.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 266,
+          "days_count": 8,
+          "flow_per_hour": 95,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "15": [
+        {
+          "load": 24.8,
+          "peak_load": 35.3,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 299,
+          "days_count": 8,
+          "flow_per_hour": 107,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 28,
+          "peak_load": 39.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 337,
+          "days_count": 8,
+          "flow_per_hour": 120,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 34.9,
+          "peak_load": 48.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 420,
+          "days_count": 8,
+          "flow_per_hour": 150,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 34.9,
+          "peak_load": 44.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 420,
+          "days_count": 8,
+          "flow_per_hour": 150,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 32.7,
+          "peak_load": 46.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 394,
+          "days_count": 8,
+          "flow_per_hour": 141,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 34.1,
+          "peak_load": 42.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 411,
+          "days_count": 8,
+          "flow_per_hour": 147,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 28.5,
+          "peak_load": 38.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 343,
+          "days_count": 8,
+          "flow_per_hour": 123,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 26.1,
+          "peak_load": 35.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 314,
+          "days_count": 8,
+          "flow_per_hour": 112,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "16": [
+        {
+          "load": 29.5,
+          "peak_load": 39.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 355,
+          "days_count": 8,
+          "flow_per_hour": 127,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 37.6,
+          "peak_load": 47.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 453,
+          "days_count": 8,
+          "flow_per_hour": 162,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 38.4,
+          "peak_load": 54.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 462,
+          "days_count": 8,
+          "flow_per_hour": 165,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 43.4,
+          "peak_load": 63.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 523,
+          "days_count": 8,
+          "flow_per_hour": 187,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 46.1,
+          "peak_load": 61.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 555,
+          "days_count": 8,
+          "flow_per_hour": 198,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 39.3,
+          "peak_load": 52.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 473,
+          "days_count": 8,
+          "flow_per_hour": 169,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 37.1,
+          "peak_load": 50.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 447,
+          "days_count": 8,
+          "flow_per_hour": 160,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 32.7,
+          "peak_load": 44,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 394,
+          "days_count": 8,
+          "flow_per_hour": 141,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "17": [
+        {
+          "load": 33.9,
+          "peak_load": 42.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 408,
+          "days_count": 8,
+          "flow_per_hour": 146,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 38.3,
+          "peak_load": 51.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 461,
+          "days_count": 8,
+          "flow_per_hour": 165,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 44.2,
+          "peak_load": 59,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 532,
+          "days_count": 8,
+          "flow_per_hour": 190,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 44.1,
+          "peak_load": 58.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 531,
+          "days_count": 8,
+          "flow_per_hour": 190,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 45.2,
+          "peak_load": 56.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 544,
+          "days_count": 8,
+          "flow_per_hour": 194,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 46.9,
+          "peak_load": 66.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 565,
+          "days_count": 8,
+          "flow_per_hour": 202,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 36.2,
+          "peak_load": 46.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 436,
+          "days_count": 8,
+          "flow_per_hour": 156,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 33.4,
+          "peak_load": 47.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 402,
+          "days_count": 8,
+          "flow_per_hour": 144,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "18": [
+        {
+          "load": 36,
+          "peak_load": 50.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 433,
+          "days_count": 8,
+          "flow_per_hour": 155,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 39.3,
+          "peak_load": 55.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 473,
+          "days_count": 8,
+          "flow_per_hour": 169,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 43.3,
+          "peak_load": 58.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 521,
+          "days_count": 8,
+          "flow_per_hour": 186,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 48.9,
+          "peak_load": 63.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 589,
+          "days_count": 8,
+          "flow_per_hour": 210,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 48.1,
+          "peak_load": 67.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 579,
+          "days_count": 8,
+          "flow_per_hour": 207,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 48.1,
+          "peak_load": 62.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 579,
+          "days_count": 8,
+          "flow_per_hour": 207,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 41.7,
+          "peak_load": 55.5,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 502,
+          "days_count": 8,
+          "flow_per_hour": 179,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 31.4,
+          "peak_load": 43.6,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 378,
+          "days_count": 8,
+          "flow_per_hour": 135,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "19": [
+        {
+          "load": 28.2,
+          "peak_load": 37.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 340,
+          "days_count": 8,
+          "flow_per_hour": 121,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 37.5,
+          "peak_load": 47.8,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 451,
+          "days_count": 8,
+          "flow_per_hour": 161,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 39.8,
+          "peak_load": 50.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 479,
+          "days_count": 8,
+          "flow_per_hour": 171,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 46.6,
+          "peak_load": 64,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 561,
+          "days_count": 8,
+          "flow_per_hour": 200,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 44.3,
+          "peak_load": 58.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 533,
+          "days_count": 8,
+          "flow_per_hour": 190,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 39.2,
+          "peak_load": 54.1,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 472,
+          "days_count": 8,
+          "flow_per_hour": 169,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 38.4,
+          "peak_load": 47.9,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 462,
+          "days_count": 8,
+          "flow_per_hour": 165,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 30.1,
+          "peak_load": 37.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 362,
+          "days_count": 8,
+          "flow_per_hour": 129,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "20": [
+        {
+          "load": 23.4,
+          "peak_load": 31.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 282,
+          "days_count": 8,
+          "flow_per_hour": 101,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 31,
+          "peak_load": 42.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 373,
+          "days_count": 8,
+          "flow_per_hour": 133,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 32.9,
+          "peak_load": 46.4,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 396,
+          "days_count": 8,
+          "flow_per_hour": 141,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 32.8,
+          "peak_load": 43.7,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 395,
+          "days_count": 8,
+          "flow_per_hour": 141,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 36.6,
+          "peak_load": 46.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 441,
+          "days_count": 8,
+          "flow_per_hour": 157,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 32.4,
+          "peak_load": 40.3,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 390,
+          "days_count": 8,
+          "flow_per_hour": 139,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 31.7,
+          "peak_load": 43.2,
+          "level": "standing",
+          "confidence": "high",
+          "ticket_count": 382,
+          "days_count": 8,
+          "flow_per_hour": 136,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 24.9,
+          "peak_load": 35.6,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 300,
+          "days_count": 8,
+          "flow_per_hour": 107,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "21": [
+        {
+          "load": 17.4,
+          "peak_load": 25.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 209,
+          "days_count": 8,
+          "flow_per_hour": 75,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 22.2,
+          "peak_load": 28.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 267,
+          "days_count": 8,
+          "flow_per_hour": 95,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 24.5,
+          "peak_load": 31.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 295,
+          "days_count": 8,
+          "flow_per_hour": 105,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 23.5,
+          "peak_load": 29.4,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 283,
+          "days_count": 8,
+          "flow_per_hour": 101,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 27.2,
+          "peak_load": 36.7,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 327,
+          "days_count": 8,
+          "flow_per_hour": 117,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 23.3,
+          "peak_load": 32.2,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 281,
+          "days_count": 8,
+          "flow_per_hour": 100,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 20.1,
+          "peak_load": 29.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 242,
+          "days_count": 8,
+          "flow_per_hour": 86,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 17.8,
+          "peak_load": 24,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 214,
+          "days_count": 8,
+          "flow_per_hour": 77,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "22": [
+        {
+          "load": 12.1,
+          "peak_load": 17.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 146,
+          "days_count": 8,
+          "flow_per_hour": 52,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 13.7,
+          "peak_load": 18,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 165,
+          "days_count": 8,
+          "flow_per_hour": 59,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 15.8,
+          "peak_load": 21.5,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 190,
+          "days_count": 8,
+          "flow_per_hour": 68,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 15.7,
+          "peak_load": 21.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 189,
+          "days_count": 8,
+          "flow_per_hour": 68,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 16,
+          "peak_load": 21.1,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 193,
+          "days_count": 8,
+          "flow_per_hour": 69,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 14.1,
+          "peak_load": 19.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 170,
+          "days_count": 8,
+          "flow_per_hour": 61,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 12.8,
+          "peak_load": 16.8,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 154,
+          "days_count": 8,
+          "flow_per_hour": 55,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 11.8,
+          "peak_load": 14.9,
+          "level": "seats",
+          "confidence": "high",
+          "ticket_count": 142,
+          "days_count": 8,
+          "flow_per_hour": 51,
+          "buses_per_hour": 4.3
+        }
+      ],
+      "23": [
+        {
+          "load": 6.8,
+          "peak_load": 8.7,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 14,
+          "days_count": 2,
+          "flow_per_hour": 29,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 7.5,
+          "peak_load": 10.9,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 26,
+          "days_count": 2,
+          "flow_per_hour": 32,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 8.9,
+          "peak_load": 12.8,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 15,
+          "days_count": 2,
+          "flow_per_hour": 38,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 8.6,
+          "peak_load": 11.2,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 27,
+          "days_count": 2,
+          "flow_per_hour": 37,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 9.1,
+          "peak_load": 12.8,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 26,
+          "days_count": 2,
+          "flow_per_hour": 39,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 9.1,
+          "peak_load": 12.1,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 23,
+          "days_count": 2,
+          "flow_per_hour": 39,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 7.3,
+          "peak_load": 10.2,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 21,
+          "days_count": 2,
+          "flow_per_hour": 31,
+          "buses_per_hour": 4.3
+        },
+        {
+          "load": 6.5,
+          "peak_load": 9.1,
+          "level": "seats",
+          "confidence": "low",
+          "ticket_count": 21,
+          "days_count": 2,
+          "flow_per_hour": 28,
+          "buses_per_hour": 4.3
+        }
+      ]
+    }
+  }
+}
